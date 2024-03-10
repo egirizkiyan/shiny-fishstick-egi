@@ -1,0 +1,13 @@
+# Fungsi untuk menghitung kuadrat dari suatu angka
+def square(x):
+    return x * x
+
+# List angka
+numbers = [1, 2, 3, 4, 5]
+
+# Menggunakan fungsi map untuk mengaplikasikan fungsi square ke setiap elemen dalam list numbers
+squared_numbers = list(map(square, numbers))
+
+# Menampilkan hasil
+print("List numbers:", numbers)
+print("List squared_numbers:", squared_numbers)
